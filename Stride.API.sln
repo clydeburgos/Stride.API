@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stride.API", "Stride.API.csproj", "{445845BA-B2B9-4B38-9A11-157FCFAFBD83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stride.Domain", "..\Stride.Domain\Stride.Domain.csproj", "{25BDF83A-3EDF-4818-B3FC-5BEED0EE18E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stride.Application", "..\Stride.Application\Stride.Application.csproj", "{55F4CC7D-C9DD-4A52-ADF5-F153F22E8499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stride.Infrastructure", "..\Stride.Infrastructure\Stride.Infrastructure.csproj", "{4E6C4593-2B7E-41CA-9F98-4DE695674907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stride.Postgres", "..\Stride.Postgres\Stride.Postgres.csproj", "{58C3934E-D30F-4C09-BC26-7F1A812BCF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stride.Core", "..\Stride.Core\Stride.Core.csproj", "{8E9772A9-CCAD-4353-AF30-B4D8E7432BC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{445845BA-B2B9-4B38-9A11-157FCFAFBD83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445845BA-B2B9-4B38-9A11-157FCFAFBD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445845BA-B2B9-4B38-9A11-157FCFAFBD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445845BA-B2B9-4B38-9A11-157FCFAFBD83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BDF83A-3EDF-4818-B3FC-5BEED0EE18E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BDF83A-3EDF-4818-B3FC-5BEED0EE18E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BDF83A-3EDF-4818-B3FC-5BEED0EE18E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BDF83A-3EDF-4818-B3FC-5BEED0EE18E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F4CC7D-C9DD-4A52-ADF5-F153F22E8499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F4CC7D-C9DD-4A52-ADF5-F153F22E8499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F4CC7D-C9DD-4A52-ADF5-F153F22E8499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F4CC7D-C9DD-4A52-ADF5-F153F22E8499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6C4593-2B7E-41CA-9F98-4DE695674907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6C4593-2B7E-41CA-9F98-4DE695674907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6C4593-2B7E-41CA-9F98-4DE695674907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6C4593-2B7E-41CA-9F98-4DE695674907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C3934E-D30F-4C09-BC26-7F1A812BCF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C3934E-D30F-4C09-BC26-7F1A812BCF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C3934E-D30F-4C09-BC26-7F1A812BCF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C3934E-D30F-4C09-BC26-7F1A812BCF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9772A9-CCAD-4353-AF30-B4D8E7432BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9772A9-CCAD-4353-AF30-B4D8E7432BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9772A9-CCAD-4353-AF30-B4D8E7432BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9772A9-CCAD-4353-AF30-B4D8E7432BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEF1D272-E346-43EB-8B2C-D81385A4F4DD}
+	EndGlobalSection
+EndGlobal
